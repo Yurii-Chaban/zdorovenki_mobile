@@ -9,35 +9,36 @@ $(function () {
     });
 });
 /*swiper-container-promotional-product*/
-var swiper = new Swiper('.swiper-container-promotional-product', {
-    nextButton: '.swiper-button-next',
-    prevButton: '.swiper-button-prev',
+var swiper = new Swiper('.swiper-container-promotional-items', {
+    nextButton: '.swiper-button-promotional-next',
+    prevButton: '.swiper-button-promotional-prev',
     slidesPerView: 1,
     paginationClickable: true,
-    spaceBetween: 30,
+    spaceBetween: 20,
     pause: 1000,
-    speed: 3500,
-    loop: true
+    speed: 1000,
+    loop: true,
+    freeMode: true
 });
 /*swiper-container-popular-products*/
 var swiper = new Swiper('.swiper-container-popular-products', {
-    nextButton: '.swiper-button-next',
-    prevButton: '.swiper-button-prev',
+    nextButton: '.swiper-button-popular-next',
+    prevButton: '.swiper-button-popular-prev',
     slidesPerView: 1,
     paginationClickable: true,
     spaceBetween: 30,
     pause: 1000,
-    speed: 3500,
+    speed: 1000,
     loop: true
 });
 /*swiper-container-latest-products*/
 var swiper = new Swiper('.swiper-container-latest-products', {
-    nextButton: '.swiper-button-next',
-    prevButton: '.swiper-button-prev',
+    nextButton: '.swiper-button-latest-next',
+    prevButton: '.swiper-button-latest-prev',
     slidesPerView: 1,
     paginationClickable: true,
     spaceBetween: 30,
     pause: 1000,
-    speed: 3500,
+    speed: 1000,
     loop: true
 });
