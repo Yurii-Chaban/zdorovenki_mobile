@@ -1,4 +1,6 @@
 @import "compass/reset";
+@import "contact-page";
+@import "basket";
 
 @font-face {
   font-family: 'Arial';
@@ -25,49 +27,24 @@ body {
   font-size: 16px;
   background: #fff;
 }
-// @mixin direction {
-//   @include site-container;
-//   padding: 6px 0;
-//   background-color: #e1ddda;
-//   .arrow-back {
-//     float: left;
-//     margin: 5px 0 0 0;
-//   }
-//   .direction-title {
-//     margin: 0 auto;
-//     text-align: center;
-//     a {
-//       color: #8f8681;
-//       font: 400 15px / 25px 'Arial', sans-serif;
-//       text-transform: uppercase;
-//     }
-//   }
-// }
-// @mixin page-pagination {
-// 	@include site-container;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-// 	width: 100%;
-// 	margin: 26px auto 31px;
-// 	text-align: center;
-// 	box-sizing: border-box;
-  
-// 	li {
-// 		display: inline-block;
-// 		margin: 0 5px;
-// 		a {
-// 			color: #908782;
-//       font: 400 22px / 20px 'PT Sans', sans-serif;
-// 			text-decoration: none;
-// 			@include transition;
-
-// 			&:hover {
-// 				color: #f37835;
-// 			}
-// 		}
-// 	}
-// }
+@mixin direction {
+  @include site-container;
+  padding: 6px 0;
+  background-color: #94d10e;
+  .arrow-back {
+    float: left;
+    margin: 5px 0 0 0;
+  }
+  .direction-title {
+    margin: 0 auto;
+    text-align: center;
+    a {
+      color: white;
+      font: 400 15px / 25px 'Arial', sans-serif;
+      text-transform: uppercase;
+    }
+  }
+}
 @mixin mapWrapper {
 	position: relative;
 	padding-bottom: 65.25%;
@@ -107,6 +84,9 @@ body {
 }
 a {
 	text-decoration: none;
+}
+.direction {
+  @include direction;
 }
 /*---------------------------------------*/
 header {
