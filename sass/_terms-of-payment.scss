@@ -1,0 +1,64 @@
+@mixin site-container {
+	position: relative;
+	width: 100%;
+	box-sizing: border-box;
+	margin: auto;
+	background-size: contain;
+	background-position: center;
+}
+.terms-of-payments-page {
+	@include site-container;
+	padding-bottom: 39px;
+
+	p {
+		margin: 23px auto 0;
+		color: #2b2b2b;
+		font: 400 18px / 25px 'Arial', sans-serif;
+	}
+	.terms-list {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		li {
+			position: relative;
+			padding-left: 10px;
+			text-align: left;
+			color: #2b2b2b;
+			font: 400 18px / 25px 'Arial', sans-serif;
+
+			&:before {
+				position: absolute;
+				content: "";
+				width: 2px;
+				height: 2px;
+				background: #2b2b2b;
+				border-radius: 100%;
+				top: 10px;
+				left: 0;
+			}
+			span {
+				color: #ff0b36;
+			}
+			h4 {
+				color: #ff0a36;
+				font-weight: 700;
+			}
+		}
+	}
+	.img-block {
+		max-width: 267px;
+		width: 100%;
+		height: auto;
+		margin: 20px auto;
+		text-align: center;
+
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+	strong {
+		font-weight: 700;
+		color: #1e1e1e;
+	}
+}
