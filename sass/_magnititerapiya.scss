@@ -1,0 +1,197 @@
+@mixin site-container {
+	position: relative;
+	width: 100%;
+	box-sizing: border-box;
+	margin: auto;
+	background-size: contain;
+	background-position: center;
+}
+.magnititerapiya-page {
+	@include site-container;
+
+	.magnititerapiya-item {
+		display: block;
+		max-width: 420px;
+		width: 100%;
+		height: auto;
+		box-sizing: border-box;
+		margin: 28px auto;
+		padding: 18px 5px 23px;
+		overflow: hidden;
+		border: 1px solid #b1b1b1;
+		.magnititerapiya-title {
+			color: #047fad;
+			text-align: center;
+			font: 400 18px / 22px 'Arial', sans-serif;
+			a {
+				color: #047fad;
+			}
+		}
+		.magnititerapiya-articul {
+			margin: 15px auto;
+			text-align: center;
+			color: #2a2a2a;
+			font: 700 16px / 22px 'Arial', sans-serif;
+		}
+		.float-block {
+			clear: both;
+			overflow: hidden;
+			margin: 15px auto 0;
+		    padding: 10px 0;
+			
+			.in-stock {
+				float: left;
+				font: 400 18px / 20px 'Arial', sans-serif;
+				color: black;
+				.stock-yes {
+					color: #94d10e;
+				}
+				.stock-no {
+					color: #7c7c7c;
+				}
+			}
+			.call-button {
+				float: right;
+				color: black;
+				font: 400 18px / 20px 'Arial', sans-serif;
+			}
+			.price {
+				float: left;
+				color: #ff3c19;
+				font: 400 18px / 23px 'Arial', sans-serif;
+			}
+			.more-button {
+				display: block;
+				float: right;
+				width: 115px;
+				height: 33px;
+				text-align: center;
+				color: white;
+				font: 400 18px / 33px 'Arial', sans-serif;
+				border-radius: 7px;
+				background-image: linear-gradient(to top, #047fad 0%, #09adef 100%);
+				box-shadow: 2px 3.5px 0 rgba(28, 28, 28, 0.13);
+			}
+		}
+		.img-container {
+			width: 100%;
+			max-width: 170px;
+			overflow: hidden;
+			margin: 24px auto 28px;
+			text-align: center;
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+		}
+	}
+
+
+	/*----------------------------------paginator--------------------*/
+	.paginator { 
+		clear: both;
+		font-size: 14px; 
+		text-align: center; 
+		margin: 20px 0 49px;   
+		padding-top: 17px;
+	}
+	.paginator_line {
+		height: 1px; 
+		background-color: #dbd7d7; 
+		position: relative; 
+		top:35px; 
+		z-index: 0;
+	}
+	.paginator ul {
+		list-style: none; 
+		clear: both; 
+		overflow: hidden; 
+		display: inline-block; 
+		z-index: 1;
+	}
+	.paginator ul li { 
+		float: left;  
+    	width: auto;
+		margin: 0 13px;
+		padding-bottom: 28px;
+		text-align: center; 
+	}
+	.paginator ul li a {
+		text-decoration: none; 
+		color: #6d6772; 
+		display: block; 
+		text-align: center; 
+		// padding: 0 15px;
+	}
+	.paginator ul li:hover a,
+	.paginator ul li a:focus, 
+	.paginator li.active a { 
+		color: #7cbf00; 
+		text-decoration: none; 
+		padding: 0;
+	}
+	.paginator li.active { 
+	    cursor: default;
+	    position: relative;
+	    text-align: center;
+	    background: url(../images/bg_paginator.png) no-repeat;
+	    background-position: center bottom;
+	    width: 36px;
+	    color: #7cbf00;
+	}
+	.paginator_link { 
+		overflow: hidden; 
+		padding: 2px 1px 0 0;
+	}
+	.paginator_link a {
+		font-size: 11px; 
+		color: #6d6772;
+	}
+	.paginator_link .firstpag {
+		float: left;
+	}
+	.paginator_link .lastpag {
+		float: right;
+	}
+	.after-content {
+		margin: 29px auto 32px;
+		text-align: left;
+		.after-descroption {
+			font: 700 22px / 23px 'Arial', sans-serif;
+			color: black;
+		}
+		p {
+			margin: 30px auto;
+			color: #2b2b2b;
+			font: 400 18px / 22px 'Arial', sans-serif;
+		}
+		.list-title {
+			color: #2b2b2b;
+			font: 700 18px / 22px 'Arial', sans-serif;
+		}	
+		.help-list {
+			width: 100%;
+			margin: 0 auto;
+			text-align: center;
+			li {
+				position: relative;
+				margin: 15px auto;
+				padding: 0 0 0 10px;
+				text-align: left;
+				color: #2b2b2b;
+				font: 400 18px / 22px 'Arial', sans-serif;
+
+				&:before {
+					position: absolute;
+					content: "";
+					width: 2px;
+					height: 2px;
+					background: #2b2b2b;
+					border-radius: 100%;
+					top: 10px;
+					left: 0;
+				}
+			}
+		}
+	}
+}
