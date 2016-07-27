@@ -42,3 +42,9 @@ var swiper = new Swiper('.swiper-container-latest-products', {
     speed: 1000,
     loop: true
 });
+/*------------------------------*/
+$(document).ready(function($) {
+            $('.ui.dropdown')
+              .dropdown()
+            ;
+        }); 
