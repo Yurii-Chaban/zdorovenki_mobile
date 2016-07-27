@@ -54,7 +54,21 @@ var swiper = new Swiper('.swiper-container-latest-products', {
 });
 /*------------------------------*/
 $(document).ready(function($) {
-            $('.ui.dropdown')
-              .dropdown()
-            ;
-        }); 
+    $('.ui.dropdown')
+      .dropdown()
+    ;
+}); 
+/*---------------------*/
+function toggle_visibility(id) {
+   var e = document.getElementById(id);
+   if(e.style.display == 'block')
+      e.style.display = 'none';
+   else
+      e.style.display = 'block';
+}
+$(".fa-filter").click(function(){
+    $(this).removeClass('fa-filter').addClass('fa-close');
+})
+$(".fa-close").click(function(){
+    $(this).removeClass('fa-close').addClass('fa-filter');
+})
