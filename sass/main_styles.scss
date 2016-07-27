@@ -4,6 +4,7 @@
 @import "basket-continue";
 @import "about-us";
 @import "delivery-condition";
+@import "home-medical-equipment";
 
 @font-face {
   font-family: 'Arial';
@@ -558,6 +559,12 @@ header {
         .capitalize-word {
           text-transform: capitalize;
         }
+      }
+      .product-price {
+        margin: 0 auto 27px;
+        text-align: center;
+        color: #ff3c19;
+        font: 400 20px / 23px 'Arial', sans-serif;
       }
       .arrow-picture {
         width: 150px;
