@@ -8,6 +8,16 @@ $(function () {
         }
     });
 });
+$(function () {
+    $('.paginator li a').each(function () {
+        var location = window.location.pathname;
+        var link = this.pathname;
+        var result = location.match(link);
+        if(result && link.length > 0) {
+        $(this).addClass('active');
+        }
+    });
+});
 /*swiper-container-promotional-product*/
 var swiper = new Swiper('.swiper-container-promotional-items', {
     nextButton: '.swiper-button-promotional-next',

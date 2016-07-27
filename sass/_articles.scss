@@ -1,0 +1,125 @@
+@mixin site-container {
+	position: relative;
+	width: 100%;
+	box-sizing: border-box;
+	margin: auto;
+	background-size: contain;
+	background-position: center;
+}
+.articles-page {
+	@include site-container;
+
+	.article-item {
+		display: block;
+		max-width: 420px;
+		width: 100%;
+		height: auto;
+		box-sizing: border-box;
+		margin: 28px auto;
+		overflow: hidden;
+		padding: 23px 10px;
+		background-color: #ededed;
+		border-radius: 7px 6px 6px 7px;
+
+		.article-title {
+			color: #047fad;
+			font: 700 22px / 23px 'Arial', sans-serif;
+			a {
+				color: #047fad;
+			}
+		}
+		.article-date {
+			margin: 25px auto 0;
+			color: #047fad;
+			font: 400 18px / 23px 'Arial', sans-serif;
+		}
+		.img-container {
+			width: 100%;
+			max-width: 270px;
+			overflow: hidden;
+			margin: 24px auto 28px;
+			text-align: center;
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+		}
+		.article-description {
+			color: #434343;
+			font: 400 18px / 22px 'Arial', sans-serif;
+		}
+		.article-more {
+			float: right;
+			margin: 25px 0 0;
+			color: #717171;
+			font: 700 18px / 19px 'Arial', sans-serif;
+		}
+	}
+
+	/*----------------------------------paginator--------------------*/
+	.paginator { 
+		clear: both;
+		font-size: 14px; 
+		text-align: center; 
+		margin: 20px 0 49px;   
+		padding-top: 17px;
+	}
+	.paginator_line {
+		height: 1px; 
+		background-color: #dbd7d7; 
+		position: relative; 
+		top:35px; 
+		z-index: 0;
+	}
+	.paginator ul {
+		list-style: none; 
+		clear: both; 
+		overflow: hidden; 
+		display: inline-block; 
+		z-index: 1;
+	}
+	.paginator ul li { 
+		float: left;  
+    	width: auto;
+		margin: 0 13px;
+		padding-bottom: 28px;
+		text-align: center; 
+	}
+	.paginator ul li a {
+		text-decoration: none; 
+		color: #6d6772; 
+		display: block; 
+		text-align: center; 
+		// padding: 0 15px;
+	}
+	.paginator ul li:hover a,
+	.paginator ul li a:focus, 
+	.paginator li.active a { 
+		color: #7cbf00; 
+		text-decoration: none; 
+		padding: 0;
+	}
+	.paginator li.active { 
+	    cursor: default;
+	    position: relative;
+	    text-align: center;
+	    background: url(../images/bg_paginator.png) no-repeat;
+	    background-position: center bottom;
+	    width: 36px;
+	    color: #7cbf00;
+	}
+	.paginator_link { 
+		overflow: hidden; 
+		padding: 2px 1px 0 0;
+	}
+	.paginator_link a {
+		font-size: 11px; 
+		color: #6d6772;
+	}
+	.paginator_link .firstpag {
+		float: left;
+	}
+	.paginator_link .lastpag {
+		float: right;
+	}
+}
