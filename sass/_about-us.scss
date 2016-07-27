@@ -1,0 +1,44 @@
+@mixin site-container {
+	position: relative;
+	width: 100%;
+	box-sizing: border-box;
+	margin: auto;
+	background-size: contain;
+	background-position: center;
+}
+
+.about-us-page {
+	@include site-container;
+
+	.welcome-title {
+		color: #047fad;
+		font: 700 22px / 22px 'Arial', sans-serif;
+	}
+	.main-title {
+		margin: 24px auto;
+		text-align: center;
+		color: #00cc71;
+		font: 700 28px / 28px 'Arial', sans-serif;
+		font-style: italic;
+	}
+	.our-company-description {
+		color: #047fad;
+		font: 400 18px / 25px 'Arial', sans-serif;
+	}
+	.our-team {
+		margin: 31px auto 29px;
+		color: #2d2d2d;
+		font: 400 18px / 25px 'Arial', sans-serif;
+	}
+	.team-sign {
+		color: #047fad;
+		font: 700 22px / 22px 'Arial', sans-serif;
+	}
+	.phone {
+		margin: 12px auto 38px;
+		text-align: center;
+		color: red;
+		font: 700 22px / 22px 'Arial', sans-serif;
+		font-style: italic;
+	}
+}
