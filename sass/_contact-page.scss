@@ -41,3 +41,98 @@
 		@include mapWrapper;
 	}
 }
+.contact-phone {
+	color: #047fad;
+	font: 400 18px / 22px 'Arial', sans-serif;
+	.list-title {
+		margin-bottom: 15px;
+	}
+	li {
+		display: block;
+		margin: 5px auto;
+		a {
+			color: #047fad;
+		}
+		.mail {
+			color: #5a5a5a;
+		}
+	}
+}
+.contact-form {
+	margin: 30px auto 40px;
+
+	.form-title {
+		color: #606060;
+		font: 700 18px / 22px 'Arial', sans-serif;
+	}
+	.form-row {
+		clear: both;
+		overflow: hidden;
+		margin: 33px auto;
+		box-sizing: border-box;
+
+		label {
+			color: #5a5a5a;
+			font: 400 18px / 25px 'Arial', sans-serif;
+		}
+		#name,
+		#tel,
+		#email {
+			display: block;
+			width: 100%;
+			box-sizing: border-box;
+			height: 39px;
+			border: none;
+			outline: none;
+			padding: 0 0 0 10px;
+			font: 400 18px / 39px 'Arial', sans-serif;
+			background-color: #ededed;
+			border-radius: 6px 7px 7px 6px;
+		}
+		#message {
+			width: 100%;
+			height: 215px;
+			box-sizing: border-box;
+			border: none;
+			outline: none;
+			padding: 10px;
+			resize: none;
+			font: 400 18px / 39px 'Arial', sans-serif;
+			background-color: #ededed;
+			border-radius: 7px 6px 6px 7px;
+		}
+		.captcha-img {
+			float: left;
+		}
+		#captcha-field {
+			display: block;
+			float: right;
+			width: 50%;
+			height: 45px;
+			box-sizing: border-box;
+			border: none;
+			outline: none;
+		    margin: 10px 0;
+			padding: 0 0 0 10px;
+			font: 400 18px / 39px 'Arial', sans-serif;
+			background-color: #ededed;
+			border-radius: 6px 7px 7px 6px;
+		}
+	}
+	.submit-form {
+		display: block;
+		width: 136px;
+		height: 32px;
+		clear: both;
+		overflow: hidden;
+		margin: 0 auto;
+		text-align: center;
+		color: white;
+		border: none;
+		font: 400 18px / 32px 'Arial', sans-serif;
+		text-transform: uppercase;
+		border-radius: 7px;
+		background-color: #919191;
+		border-radius: 7px 6px 6px 7px;
+	}
+}

@@ -52,6 +52,26 @@ var swiper = new Swiper('.swiper-container-latest-products', {
     speed: 1000,
     loop: true
 });
+var swiper = new Swiper('.swiper-container-magnititerapiya-podrobnee-products', {
+    nextButton: '.swiper-button-magnititerapiya-podrobnee-next',
+    prevButton: '.swiper-button-magnititerapiya-podrobnee-prev',
+    slidesPerView: 1,
+    paginationClickable: true,
+    spaceBetween: 0,
+    pause: 1000,
+    speed: 1000,
+    loop: true
+});
+var swiper = new Swiper('.swiper-container-related-products', {
+    nextButton: '.swiper-button-related-products-next',
+    prevButton: '.swiper-button-related-products-prev',
+    slidesPerView: 1,
+    paginationClickable: true,
+    spaceBetween: 0,
+    pause: 1000,
+    speed: 1000,
+    loop: true
+});
 /*------------------------------*/
 $(document).ready(function($) {
     $('.ui.dropdown')
@@ -66,9 +86,53 @@ function toggle_visibility(id) {
    else
       e.style.display = 'block';
 }
-$(".fa-filter").click(function(){
-    $(this).removeClass('fa-filter').addClass('fa-close');
-})
-$(".fa-close").click(function(){
-    $(this).removeClass('fa-close').addClass('fa-filter');
-})
+/*add / remove class it filter button*/
+$(".filter-button span").click(function(){
+    if($(".filter-button span").hasClass("fa-filter") ){
+        $(this).removeClass('fa-filter').addClass('fa-close');
+    }
+    else {
+        $(this).removeClass('fa-close').addClass('fa-filter');
+    }
+});
+
+/*star*/
+// $(function(){
+    
+//     $('#rating_1').rating({
+//         fx: 'full',
+//         image: 'images/stars.png',
+//         loader: 'images/ajax-loader.gif',
+//         url: 'rating.php',
+//         callback: function(responce){
+            
+//             this.vote_success.fadeOut(2000);
+//         }
+//     });
+    
+//     $('#rating_2').rating({
+//         fx: 'half',
+//         image: 'images/stars.png',
+//         loader: 'images/ajax-loader.gif',
+//         url: 'rating.php',
+//         callback: function(responce){
+            
+//             this.vote_success.fadeOut(2000);
+            
+//             alert('Общий бал: '+this._data.val);
+//         }
+//     });
+    
+//     $('#rating_3').rating({
+//         fx: 'float',
+//         image: 'images/stars.png',
+//         loader: 'images/ajax-loader.gif',
+//         minimal: 0.6,
+//         url: 'rating.php',
+//         callback: function(responce){
+            
+//             this.vote_success.fadeOut(2000);
+//             if(responce.msg) alert(responce.msg);
+//         }
+//     });
+// })

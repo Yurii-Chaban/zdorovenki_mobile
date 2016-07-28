@@ -142,9 +142,35 @@
 						<a href="tel:(067) 7603409">(067) 7603409;</a>
 					</li>
 					<li>
-						<a href="mailto:info@zdorovenki.com.ua">info@zdorovenki.com.ua</a>
+						<a class="mail" href="mailto:info@zdorovenki.com.ua">info@zdorovenki.com.ua</a>
 					</li>
 				</ul>
+			</div>
+			<div class="contact-form">
+				<h2 class="form-title">Форма обратной связи:</h2>
+				<form action="#" method="post" id="contact-form">
+					<div class="form-row">
+						<label for="name">Контактное лицо *</label>
+						<input id="name" type="text" name="name">
+					</div>
+					<div class="form-row">
+						<label for="tel">Контактный телефон </label>
+						<input id="tel" type="tel" name="tel">
+					</div>
+					<div class="form-row">
+						<label for="email">E-mail *</label>
+						<input id="email" type="email" name="email">
+					</div>
+					<div class="form-row">
+						<label for="message">Ваш вопрос или заказ</label>
+						<textarea id="message" name="message"></textarea>
+					</div>
+					<div class="form-row">
+						<img class="captcha-img" src="images/captcha-img.png" alt="captcha-img">
+						<input id="captcha-field" texttype="email" name="captcha">
+					</div>
+					<button class="submit-form" type="submit">Отправить</button>
+				</form>
 			</div>
 		</div>
 	</section>

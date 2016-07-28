@@ -103,6 +103,115 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   height: 100%;
 }
 
+/* line 44, ../sass/_contact-page.scss */
+.contact-phone {
+  color: #047fad;
+  font: 400 18px / 22px 'Arial', sans-serif;
+}
+/* line 47, ../sass/_contact-page.scss */
+.contact-phone .list-title {
+  margin-bottom: 15px;
+}
+/* line 50, ../sass/_contact-page.scss */
+.contact-phone li {
+  display: block;
+  margin: 5px auto;
+}
+/* line 53, ../sass/_contact-page.scss */
+.contact-phone li a {
+  color: #047fad;
+}
+/* line 56, ../sass/_contact-page.scss */
+.contact-phone li .mail {
+  color: #5a5a5a;
+}
+
+/* line 61, ../sass/_contact-page.scss */
+.contact-form {
+  margin: 30px auto 40px;
+}
+/* line 64, ../sass/_contact-page.scss */
+.contact-form .form-title {
+  color: #606060;
+  font: 700 18px / 22px 'Arial', sans-serif;
+}
+/* line 68, ../sass/_contact-page.scss */
+.contact-form .form-row {
+  clear: both;
+  overflow: hidden;
+  margin: 33px auto;
+  box-sizing: border-box;
+}
+/* line 74, ../sass/_contact-page.scss */
+.contact-form .form-row label {
+  color: #5a5a5a;
+  font: 400 18px / 25px 'Arial', sans-serif;
+}
+/* line 78, ../sass/_contact-page.scss */
+.contact-form .form-row #name,
+.contact-form .form-row #tel,
+.contact-form .form-row #email {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  height: 39px;
+  border: none;
+  outline: none;
+  padding: 0 0 0 10px;
+  font: 400 18px / 39px 'Arial', sans-serif;
+  background-color: #ededed;
+  border-radius: 6px 7px 7px 6px;
+}
+/* line 92, ../sass/_contact-page.scss */
+.contact-form .form-row #message {
+  width: 100%;
+  height: 215px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  padding: 10px;
+  resize: none;
+  font: 400 18px / 39px 'Arial', sans-serif;
+  background-color: #ededed;
+  border-radius: 7px 6px 6px 7px;
+}
+/* line 104, ../sass/_contact-page.scss */
+.contact-form .form-row .captcha-img {
+  float: left;
+}
+/* line 107, ../sass/_contact-page.scss */
+.contact-form .form-row #captcha-field {
+  display: block;
+  float: right;
+  width: 50%;
+  height: 45px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  margin: 10px 0;
+  padding: 0 0 0 10px;
+  font: 400 18px / 39px 'Arial', sans-serif;
+  background-color: #ededed;
+  border-radius: 6px 7px 7px 6px;
+}
+/* line 122, ../sass/_contact-page.scss */
+.contact-form .submit-form {
+  display: block;
+  width: 136px;
+  height: 32px;
+  clear: both;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  border: none;
+  font: 400 18px / 32px 'Arial', sans-serif;
+  text-transform: uppercase;
+  border-radius: 7px;
+  background-color: #919191;
+  border-radius: 7px 6px 6px 7px;
+}
+
 /* line 1, ../sass/_basket.scss */
 .basket-page {
   position: relative;
@@ -1436,6 +1545,479 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 0;
 }
 
+/* line 10, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+/* line 13, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .magnititerapiya-title {
+  color: #047fad;
+  text-align: center;
+  font: 400 18px / 22px 'Arial', sans-serif;
+}
+/* line 17, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .magnititerapiya-title a {
+  color: #047fad;
+}
+/* line 21, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .magnititerapiya-articul {
+  margin: 15px auto;
+  text-align: center;
+  color: #2a2a2a;
+  font: 700 16px / 22px 'Arial', sans-serif;
+}
+/* line 26, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .magnititerapiya-articul a {
+  color: #2a2a2a;
+}
+/* line 31, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .swiper-container-magnititerapiya-podrobnee-products {
+  width: 100%;
+  height: 291px;
+  max-width: 375px;
+  overflow: hidden;
+  border: 1px solid #b1b1b1;
+  position: relative;
+}
+/* line 38, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .swiper-container-magnititerapiya-podrobnee-products .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+/* line 55, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .swiper-container-magnititerapiya-podrobnee-products .swiper-slide img {
+  max-width: 100%;
+  height: auto;
+}
+/* line 62, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .float-block {
+  clear: both;
+  overflow: hidden;
+  margin: 15px auto;
+  padding: 10px 0;
+}
+/* line 68, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .float-block .in-stock {
+  font: 400 22px / 24px 'Arial', sans-serif;
+  color: black;
+}
+/* line 71, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .float-block .in-stock .stock-yes {
+  color: #94d10e;
+}
+/* line 74, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .float-block .in-stock .stock-no {
+  color: #7c7c7c;
+}
+/* line 78, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .float-block .call-button {
+  color: black;
+  font: 400 22px / 24px 'Arial', sans-serif;
+}
+/* line 82, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .float-block .price {
+  color: #ff3c19;
+  font: 400 22px / 23px 'Arial', sans-serif;
+}
+/* line 89, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .indications-for-use .indications-title {
+  color: black;
+  font: 700 22px / 23px 'Arial', sans-serif;
+}
+/* line 93, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .indications-for-use .indications-list {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 97, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .indications-for-use .indications-list li {
+  position: relative;
+  margin: 15px auto;
+  padding: 0 0 0 10px;
+  text-align: left;
+  color: #2b2b2b;
+  font: 400 18px / 22px 'Arial', sans-serif;
+}
+/* line 105, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .indications-for-use .indications-list li:before {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 2px;
+  background: #2b2b2b;
+  border-radius: 100%;
+  top: 10px;
+  left: 0;
+}
+/* line 117, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .indications-for-use .attantion-title {
+  margin: 20px auto 40px;
+  color: red;
+  font: 700 18px / 22px 'Arial', sans-serif;
+}
+/* line 123, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .characteristics {
+  color: #2b2b2b;
+  font: 400 18px / 22px 'Arial', sans-serif;
+}
+/* line 127, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .characteristics .characteristics-title {
+  font-weight: 700;
+}
+/* line 130, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .characteristics p {
+  margin: 15px auto;
+}
+/* line 134, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .delivery-block {
+  max-width: 375px;
+  width: 100%;
+  height: auto;
+  margin: 40px auto 0;
+  padding: 29px 10px 26px;
+  background-color: #ededed;
+  border-radius: 7px 6px 6px 7px;
+  overflow: hidden;
+}
+/* line 144, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .delivery-block .lDelivery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: left;
+  justify-content: left;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: left;
+  align-items: center;
+}
+/* line 155, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .delivery-block .lDelivery span {
+  display: inline-block;
+  margin-right: 13px;
+  color: #ff3c19;
+  font: 400 22px / 24px 'Arial', sans-serif;
+}
+/* line 162, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .delivery-block .rDelivery {
+  margin-top: 27px;
+}
+/* line 164, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .delivery-block .rDelivery > li {
+  position: relative;
+}
+/* line 167, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .delivery-block .rDelivery > li:before {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 3px;
+  background: #2b2b2b;
+  border-radius: 100%;
+  top: 10px;
+  left: 0;
+}
+/* line 177, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .delivery-block .rDelivery > li .inside-list {
+  margin-left: 15px;
+}
+/* line 179, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .delivery-block .rDelivery > li .inside-list li {
+  position: relative;
+  padding-left: 10px;
+}
+/* line 183, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .delivery-block .rDelivery > li .inside-list li:before {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 2px;
+  background: #2b2b2b;
+  top: 10px;
+  left: 0;
+}
+/* line 195, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .delivery-block .rDelivery li {
+  color: #4d4d4d;
+  font: 400 18px / 22px 'Arial', sans-serif;
+}
+/* line 199, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .delivery-block .rDelivery li h3 {
+  margin-left: 10px;
+}
+/* line 205, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .buy-button {
+  display: block;
+  float: right;
+  width: 115px;
+  height: 33px;
+  margin: 44px auto 46px;
+  text-align: center;
+  color: white;
+  border-radius: 7px;
+  font: 400 22px / 33px 'Arial', sans-serif;
+  background-image: linear-gradient(to top, #047fad 0%, #09adef 100%);
+  box-shadow: 2px 3.5px 0 rgba(28, 28, 28, 0.13);
+}
+/* line 218, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .accordion {
+  margin: 11px auto 30px;
+}
+/* line 221, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .accordion .accordion-section .accordion-section-title:after {
+  content: none;
+}
+/* line 224, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .accordion .accordion-section .accordion-section-content {
+  padding: 12px 0 23px 15px;
+  color: #4d4d4d;
+  font: 400 18px / 22px 'Arial', sans-serif;
+  background: #fff;
+  border: 1px solid #ededed;
+}
+/* line 230, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .accordion .accordion-section .accordion-section-content p {
+  margin: 10px auto;
+}
+/* line 232, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .accordion .accordion-section .accordion-section-content p strong {
+  font-weight: 700;
+}
+/* line 237, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .accordion .accordion-section .accordion-section-content .list li {
+  position: relative;
+  margin: 15px auto;
+  padding-left: 10px;
+}
+/* line 242, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .accordion .accordion-section .accordion-section-content .list li:before {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 3px;
+  background: #2b2b2b;
+  border-radius: 100%;
+  top: 10px;
+  left: 0;
+}
+/* line 255, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .accordion .accordion-section .accordion-section-content .list-characteristics li {
+  margin: 10px auto;
+}
+/* line 260, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .accordion .accordion-section .accordion-section-content .complectation-list li {
+  position: relative;
+  margin: 15px auto;
+  padding-left: 10px;
+}
+/* line 265, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .accordion .accordion-section .accordion-section-content .complectation-list li:before {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 3px;
+  background: #2b2b2b;
+  border-radius: 100%;
+  top: 10px;
+  left: 0;
+}
+/* line 278, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .accordion .accordion-section .accordion-section-content.open {
+  background: #fff;
+  border: 1px solid #ededed;
+}
+/* line 284, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page #testimmonForm {
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 100%;
+  padding: 0 10px 0 0;
+  background: #fff;
+}
+/* line 290, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page #testimmonForm .form-title {
+  font-weight: 700;
+}
+/* line 293, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page #testimmonForm .vote-stars {
+  height: 32px;
+  width: 160px;
+  background: url("../images/stars.png") left top;
+}
+/* line 298, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page #testimmonForm .vote-active {
+  height: 32px;
+  width: 32px;
+  background: url("../images/stars.png") left bottom;
+}
+/* line 303, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page #testimmonForm .vote-hover {
+  padding: 0px 4px;
+  height: 32px;
+  width: 160px;
+}
+/* line 309, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page #testimmonForm input {
+  display: block;
+  font: 14px Arial;
+  color: #4d4d4d;
+  outline: none;
+  border: 1px solid #ededed;
+  padding: 3px 8px 5px;
+  background: #ededed;
+  position: relative;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  width: 100%;
+}
+/* line 323, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page #testimmonForm textarea {
+  width: 100%;
+  height: 75px;
+  font: 14px Arial;
+  color: #4d4d4d;
+  outline: none;
+  border: 1px solid #ededed;
+  padding: 3px 8px 5px;
+  background: #ededed;
+  position: relative;
+  resize: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 338, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page #testimmonForm #name-element {
+  margin-bottom: 15px;
+}
+/* line 341, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page #testimmonForm #captchas3 {
+  width: 50%;
+  float: right;
+}
+/* line 345, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page #testimmonForm .captcha-img {
+  float: left;
+}
+/* line 349, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page #testimmonForm #askButton {
+  float: right;
+  font: 400 14px / 24px 'Arial', sans-serif;
+  width: 150px;
+  height: 30px;
+  margin: 30px 0 0 0;
+  color: #fff;
+  clear: both;
+  text-transform: uppercase;
+  background: #919191;
+  border: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 366, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .swiper-container-related-products {
+  margin: 15px auto;
+  padding: 36px 0 10px 10px;
+  border: 3px solid #047eab;
+  border-radius: 6px;
+  max-width: 375px;
+  width: 100%;
+  overflow: hidden;
+}
+/* line 375, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .swiper-container-related-products .slider-direction {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to top, #0588b9 0%, #08abed 100%);
+  z-index: 9;
+  width: 100%;
+  height: 36px;
+}
+/* line 384, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .swiper-container-related-products .slider-direction .container-title {
+  margin: 5px auto 0;
+  text-align: center;
+  color: white;
+  font: 400 18px / 23px 'Arial', sans-serif;
+}
+/* line 392, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .swiper-container-related-products .swiper-slide {
+  max-width: 375px;
+  width: 100%;
+  padding-left: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+/* line 399, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .swiper-container-related-products .swiper-slide .product-title {
+  margin: 18px auto 0;
+  color: #4d4d4d;
+  font: 700 18px / 23px 'Arial', sans-serif;
+  text-align: left;
+}
+/* line 404, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .swiper-container-related-products .swiper-slide .product-title a {
+  color: #4d4d4d;
+}
+/* line 408, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .swiper-container-related-products .swiper-slide .img-container {
+  max-width: 177px;
+  width: 100%;
+  max-height: 161px;
+  height: 100%;
+  margin: 28px auto;
+  text-align: center;
+  overflow: hidden;
+}
+/* line 417, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .swiper-container-related-products .swiper-slide .img-container img {
+  max-width: 100%;
+  height: auto;
+}
+/* line 422, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .swiper-container-related-products .swiper-slide .product-description {
+  color: #4d4d4d;
+  font: 400 16px / 22px 'Arial', sans-serif;
+  text-align: left;
+}
+/* line 427, ../sass/_magnitoterapiya-podrobnee.scss */
+.magnitoterapiya-podrobnee-page .swiper-container-related-products .swiper-slide .product-more {
+  display: block;
+  width: 153px;
+  height: 33px;
+  margin: 30px auto 37px;
+  text-align: center;
+  color: white;
+  font: 400 20px / 33px 'Arial', sans-serif;
+  border-radius: 7px;
+  background-image: linear-gradient(to top, #047fad 0%, #09adef 100%);
+  box-shadow: 2px 3.5px 0 rgba(28, 28, 28, 0.13);
+}
+
 @font-face {
   font-family: 'Arial';
   src: url("../resources/Arial/ArialMT.woff") format("woff"), url("../resources/Arial/ArialMT.ttf") format("truetype"), url("../resources/Arial/ArialMT.svg#ArialMT") format("svg");
@@ -1449,7 +2031,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: normal;
   font-style: normal;
 }
-/* line 32, ../sass/main_styles.scss */
+/* line 33, ../sass/main_styles.scss */
 body {
   font-family: 'Arial', 'Helvetica', sans-serif;
   font-weight: 400;
@@ -1457,7 +2039,7 @@ body {
   background: #fff;
 }
 
-/* line 87, ../sass/main_styles.scss */
+/* line 88, ../sass/main_styles.scss */
 .wrapper {
   max-width: 960px;
   margin: 0 auto;
@@ -1465,12 +2047,12 @@ body {
   box-sizing: border-box;
 }
 
-/* line 93, ../sass/main_styles.scss */
+/* line 94, ../sass/main_styles.scss */
 a {
   text-decoration: none;
 }
 
-/* line 96, ../sass/main_styles.scss */
+/* line 97, ../sass/main_styles.scss */
 .direction {
   position: relative;
   width: 100%;
@@ -1481,17 +2063,17 @@ a {
   padding: 6px 0;
   background-color: #94d10e;
 }
-/* line 42, ../sass/main_styles.scss */
+/* line 43, ../sass/main_styles.scss */
 .direction .arrow-back {
   float: left;
   margin: 5px 0 0 0;
 }
-/* line 46, ../sass/main_styles.scss */
+/* line 47, ../sass/main_styles.scss */
 .direction .direction-title {
   margin: 0 auto;
   text-align: center;
 }
-/* line 49, ../sass/main_styles.scss */
+/* line 50, ../sass/main_styles.scss */
 .direction .direction-title a {
   color: white;
   font: 400 15px / 25px 'Arial', sans-serif;
@@ -1499,23 +2081,23 @@ a {
 }
 
 /*---------------------------------------*/
-/* line 100, ../sass/main_styles.scss */
+/* line 101, ../sass/main_styles.scss */
 header {
   height: 68px;
   background-color: #ededed;
   border-top: 5px solid #94d10e;
 }
-/* line 105, ../sass/main_styles.scss */
+/* line 106, ../sass/main_styles.scss */
 header .wrapper {
   padding: 0 10px;
   position: relative;
 }
 
-/* line 110, ../sass/main_styles.scss */
+/* line 111, ../sass/main_styles.scss */
 .dropdovn-menu-mobile {
   position: relative;
 }
-/* line 112, ../sass/main_styles.scss */
+/* line 113, ../sass/main_styles.scss */
 .dropdovn-menu-mobile .hidden-menu {
   display: block;
   position: absolute;
@@ -1533,7 +2115,7 @@ header .wrapper {
   -webkit-transform: classZ(0);
   -webkit-backface-visibility: hidden;
 }
-/* line 128, ../sass/main_styles.scss */
+/* line 129, ../sass/main_styles.scss */
 .dropdovn-menu-mobile .hidden-menu li {
   display: block;
   width: 100%;
@@ -1543,7 +2125,7 @@ header .wrapper {
   line-height: 43px;
   vertical-align: middle;
 }
-/* line 137, ../sass/main_styles.scss */
+/* line 138, ../sass/main_styles.scss */
 .dropdovn-menu-mobile .hidden-menu li a {
   display: block;
   width: 100%;
@@ -1556,21 +2138,21 @@ header .wrapper {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 146, ../sass/main_styles.scss */
+/* line 147, ../sass/main_styles.scss */
 .dropdovn-menu-mobile .hidden-menu li a:hover {
   color: #fff;
   background: #94d10e;
 }
-/* line 151, ../sass/main_styles.scss */
+/* line 152, ../sass/main_styles.scss */
 .dropdovn-menu-mobile .hidden-menu li a.active {
   color: #fff;
   background: #94d10e;
 }
-/* line 157, ../sass/main_styles.scss */
+/* line 158, ../sass/main_styles.scss */
 .dropdovn-menu-mobile .hidden-menu-ticker {
   display: none;
 }
-/* line 160, ../sass/main_styles.scss */
+/* line 161, ../sass/main_styles.scss */
 .dropdovn-menu-mobile .btn-menu {
   color: #fff;
   background-color: none;
@@ -1584,7 +2166,7 @@ header .wrapper {
   -webkit-transform: classZ(0);
   -webkit-backface-visibility: hidden;
 }
-/* line 173, ../sass/main_styles.scss */
+/* line 174, ../sass/main_styles.scss */
 .dropdovn-menu-mobile .btn-menu span {
   display: block;
   height: 2px;
@@ -1594,16 +2176,16 @@ header .wrapper {
   border-radius: 10px;
   position: relative;
 }
-/* line 182, ../sass/main_styles.scss */
+/* line 183, ../sass/main_styles.scss */
 .dropdovn-menu-mobile .btn-menu span.first {
   margin-top: 0;
 }
-/* line 185, ../sass/main_styles.scss */
+/* line 186, ../sass/main_styles.scss */
 .dropdovn-menu-mobile .hidden-menu-ticker:checked ~ .btn-menu {
   left: 280px;
   top: 0;
 }
-/* line 189, ../sass/main_styles.scss */
+/* line 190, ../sass/main_styles.scss */
 .dropdovn-menu-mobile .hidden-menu-ticker:checked ~ .hidden-menu {
   left: -10px;
   overflow: hidden;
@@ -1611,7 +2193,7 @@ header .wrapper {
 }
 
 /*logo*/
-/* line 211, ../sass/main_styles.scss */
+/* line 212, ../sass/main_styles.scss */
 .logo {
   width: 153px;
   height: auto;
@@ -1621,27 +2203,27 @@ header .wrapper {
   padding-top: 5px;
   text-align: center;
 }
-/* line 220, ../sass/main_styles.scss */
+/* line 221, ../sass/main_styles.scss */
 .logo img {
   max-width: 100%;
   height: auto;
 }
 
 /*dropdown phone*/
-/* line 226, ../sass/main_styles.scss */
+/* line 227, ../sass/main_styles.scss */
 .call-us-block {
   float: right;
   margin: 0;
   vertical-align: middle;
 }
-/* line 231, ../sass/main_styles.scss */
+/* line 232, ../sass/main_styles.scss */
 .call-us-block img {
   display: inline-block;
   line-height: 33px;
   vertical-align: middle;
 }
 
-/* line 237, ../sass/main_styles.scss */
+/* line 238, ../sass/main_styles.scss */
 #info-mobile {
   width: 251px;
   height: auto;
@@ -1657,19 +2239,19 @@ header .wrapper {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 249, ../sass/main_styles.scss */
+/* line 250, ../sass/main_styles.scss */
 #info-mobile a {
   display: block;
   margin: 28px auto;
   text-align: center;
 }
-/* line 253, ../sass/main_styles.scss */
+/* line 254, ../sass/main_styles.scss */
 #info-mobile a .phone {
   color: #535353;
   font: 700 22px / 24px 'Arial', sans-serif;
 }
 
-/* line 259, ../sass/main_styles.scss */
+/* line 260, ../sass/main_styles.scss */
 .call-us-block > label {
   color: #000;
   float: right;
@@ -1681,12 +2263,12 @@ header .wrapper {
   transition: all .3s ease-in-out;
 }
 
-/* line 266, ../sass/main_styles.scss */
+/* line 267, ../sass/main_styles.scss */
 input {
   display: none;
 }
 
-/* line 267, ../sass/main_styles.scss */
+/* line 268, ../sass/main_styles.scss */
 input:checked + #info-mobile {
   display: none;
 }
@@ -1694,7 +2276,7 @@ input:checked + #info-mobile {
 /*end dropdown phone*/
 /*end menu*/
 /*basket*/
-/* line 272, ../sass/main_styles.scss */
+/* line 273, ../sass/main_styles.scss */
 .basket-block {
   float: right;
   width: 40px;
@@ -1702,12 +2284,12 @@ input:checked + #info-mobile {
   position: relative;
   margin-left: 10px;
 }
-/* line 279, ../sass/main_styles.scss */
+/* line 280, ../sass/main_styles.scss */
 .basket-block .basket-img {
   max-width: 100%;
   height: auto;
 }
-/* line 284, ../sass/main_styles.scss */
+/* line 285, ../sass/main_styles.scss */
 .basket-block .basket-count {
   position: absolute;
   top: 5px;
@@ -1727,11 +2309,11 @@ input:checked + #info-mobile {
 
 /*end basket*/
 /*------------------------------------*/
-/* line 303, ../sass/main_styles.scss */
+/* line 304, ../sass/main_styles.scss */
 .search-section {
   padding: 19px 0 10px;
 }
-/* line 305, ../sass/main_styles.scss */
+/* line 306, ../sass/main_styles.scss */
 .search-section .input {
   width: 100%;
   max-width: 289px;
@@ -1740,7 +2322,7 @@ input:checked + #info-mobile {
   left: 50%;
   transform: translateX(-50%);
 }
-/* line 312, ../sass/main_styles.scss */
+/* line 313, ../sass/main_styles.scss */
 .search-section .input input {
   display: block;
   max-width: 289px;
@@ -1751,7 +2333,7 @@ input:checked + #info-mobile {
   border: 1px solid #aeaeae;
   border-radius: 2px;
 }
-/* line 324, ../sass/main_styles.scss */
+/* line 325, ../sass/main_styles.scss */
 .search-section .ui.icon.input > i.icon {
   cursor: default;
   position: absolute;
@@ -1767,13 +2349,13 @@ input:checked + #info-mobile {
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
-/* line 340, ../sass/main_styles.scss */
+/* line 341, ../sass/main_styles.scss */
 .search-section .ui.icon.input > i.icon:not(.link) {
   pointer-events: none;
   color: #39a0d6;
 }
 
-/* line 345, ../sass/main_styles.scss */
+/* line 346, ../sass/main_styles.scss */
 .page-content {
   position: relative;
   width: 100%;
@@ -1783,7 +2365,7 @@ input:checked + #info-mobile {
   background-position: center;
   padding: 0 0 26px 0;
 }
-/* line 349, ../sass/main_styles.scss */
+/* line 350, ../sass/main_styles.scss */
 .page-content .mobile-menu {
   width: 100%;
   overflow: hidden;
@@ -1791,7 +2373,7 @@ input:checked + #info-mobile {
   margin: 0 auto;
   text-align: center;
 }
-/* line 356, ../sass/main_styles.scss */
+/* line 357, ../sass/main_styles.scss */
 .page-content .mobile-menu li {
   display: block;
   width: 100%;
@@ -1800,7 +2382,7 @@ input:checked + #info-mobile {
   border-radius: 2px;
   box-shadow: 1.5px 2.6px 0 rgba(0, 0, 0, 0.11);
 }
-/* line 364, ../sass/main_styles.scss */
+/* line 365, ../sass/main_styles.scss */
 .page-content .mobile-menu li a {
   display: block;
   padding: 14px 0 17px;
@@ -1808,7 +2390,7 @@ input:checked + #info-mobile {
   color: white;
   font: 400 22px / 23px 'Arial', sans-serif;
 }
-/* line 374, ../sass/main_styles.scss */
+/* line 375, ../sass/main_styles.scss */
 .page-content .swiper-container {
   width: 100%;
   height: 100%;
@@ -1820,14 +2402,14 @@ input:checked + #info-mobile {
   overflow: hidden;
   position: relative;
 }
-/* line 385, ../sass/main_styles.scss */
+/* line 386, ../sass/main_styles.scss */
 .page-content .swiper-container-promotional-items {
   margin: 19px auto 0;
   padding: 36px 0 10px 10px;
   border: 3px solid #ff0f34;
   border-radius: 6px;
 }
-/* line 391, ../sass/main_styles.scss */
+/* line 392, ../sass/main_styles.scss */
 .page-content .swiper-slide {
   overflow: hidden;
   text-align: center;
@@ -1849,7 +2431,7 @@ input:checked + #info-mobile {
   -webkit-align-items: left;
   align-items: left;
 }
-/* line 414, ../sass/main_styles.scss */
+/* line 415, ../sass/main_styles.scss */
 .page-content .swiper-container-promotional-items .slider-direction {
   position: absolute;
   top: 0;
@@ -1858,14 +2440,14 @@ input:checked + #info-mobile {
   width: 100%;
   height: 36px;
 }
-/* line 422, ../sass/main_styles.scss */
+/* line 423, ../sass/main_styles.scss */
 .page-content .swiper-container-promotional-items .slider-direction .container-title {
   margin: 5px auto 0;
   text-align: center;
   color: white;
   font: 400 18px / 23px 'Arial', sans-serif;
 }
-/* line 430, ../sass/main_styles.scss */
+/* line 431, ../sass/main_styles.scss */
 .page-content .swiper-container-promotional-items .swiper-slide {
   max-width: 375px;
   width: 100%;
@@ -1873,18 +2455,18 @@ input:checked + #info-mobile {
   box-sizing: border-box;
   overflow: hidden;
 }
-/* line 437, ../sass/main_styles.scss */
+/* line 438, ../sass/main_styles.scss */
 .page-content .swiper-container-promotional-items .swiper-slide .product-title {
   margin: 18px auto 0;
   color: #4d4d4d;
   font: 400 18px / 22px 'Arial', sans-serif;
   text-align: left;
 }
-/* line 442, ../sass/main_styles.scss */
+/* line 443, ../sass/main_styles.scss */
 .page-content .swiper-container-promotional-items .swiper-slide .product-title a {
   color: #4d4d4d;
 }
-/* line 446, ../sass/main_styles.scss */
+/* line 447, ../sass/main_styles.scss */
 .page-content .swiper-container-promotional-items .swiper-slide .img-container {
   max-width: 177px;
   width: 100%;
@@ -1894,39 +2476,39 @@ input:checked + #info-mobile {
   text-align: center;
   overflow: hidden;
 }
-/* line 455, ../sass/main_styles.scss */
+/* line 456, ../sass/main_styles.scss */
 .page-content .swiper-container-promotional-items .swiper-slide .img-container img {
   max-width: 100%;
   height: auto;
 }
-/* line 460, ../sass/main_styles.scss */
+/* line 461, ../sass/main_styles.scss */
 .page-content .swiper-container-promotional-items .swiper-slide .red-price {
   text-align: left;
   color: #ff0b36;
   font: 700 22px / 24px 'Arial', sans-serif;
 }
-/* line 464, ../sass/main_styles.scss */
+/* line 465, ../sass/main_styles.scss */
 .page-content .swiper-container-promotional-items .swiper-slide .red-price a {
   color: #ff0b36;
 }
-/* line 467, ../sass/main_styles.scss */
+/* line 468, ../sass/main_styles.scss */
 .page-content .swiper-container-promotional-items .swiper-slide .red-price .through-price {
   text-decoration: line-through;
 }
-/* line 470, ../sass/main_styles.scss */
+/* line 471, ../sass/main_styles.scss */
 .page-content .swiper-container-promotional-items .swiper-slide .red-price .capitalize-word {
   text-transform: capitalize;
 }
-/* line 474, ../sass/main_styles.scss */
+/* line 475, ../sass/main_styles.scss */
 .page-content .swiper-container-promotional-items .swiper-slide .arrow-picture {
   width: 150px;
 }
-/* line 476, ../sass/main_styles.scss */
+/* line 477, ../sass/main_styles.scss */
 .page-content .swiper-container-promotional-items .swiper-slide .arrow-picture img {
   max-width: 100%;
   height: auto;
 }
-/* line 481, ../sass/main_styles.scss */
+/* line 482, ../sass/main_styles.scss */
 .page-content .swiper-container-promotional-items .swiper-slide .product-more {
   display: block;
   width: 153px;
@@ -1943,14 +2525,14 @@ input:checked + #info-mobile {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 500, ../sass/main_styles.scss */
+/* line 501, ../sass/main_styles.scss */
 .page-content .swiper-container-popular-products {
   margin: 15px auto;
   padding: 36px 0 10px 10px;
   border: 3px solid #a8df1a;
   border-radius: 6px;
 }
-/* line 506, ../sass/main_styles.scss */
+/* line 507, ../sass/main_styles.scss */
 .page-content .swiper-container-popular-products .slider-direction {
   position: absolute;
   top: 0;
@@ -1960,14 +2542,14 @@ input:checked + #info-mobile {
   width: 100%;
   height: 36px;
 }
-/* line 515, ../sass/main_styles.scss */
+/* line 516, ../sass/main_styles.scss */
 .page-content .swiper-container-popular-products .slider-direction .container-title {
   margin: 5px auto 0;
   text-align: center;
   color: white;
   font: 400 18px / 23px 'Arial', sans-serif;
 }
-/* line 523, ../sass/main_styles.scss */
+/* line 524, ../sass/main_styles.scss */
 .page-content .swiper-container-popular-products .swiper-slide {
   max-width: 375px;
   width: 100%;
@@ -1975,18 +2557,18 @@ input:checked + #info-mobile {
   box-sizing: border-box;
   overflow: hidden;
 }
-/* line 530, ../sass/main_styles.scss */
+/* line 531, ../sass/main_styles.scss */
 .page-content .swiper-container-popular-products .swiper-slide .product-title {
   margin: 18px auto 0;
   color: #4d4d4d;
   font: 400 18px / 22px 'Arial', sans-serif;
   text-align: left;
 }
-/* line 535, ../sass/main_styles.scss */
+/* line 536, ../sass/main_styles.scss */
 .page-content .swiper-container-popular-products .swiper-slide .product-title a {
   color: #4d4d4d;
 }
-/* line 539, ../sass/main_styles.scss */
+/* line 540, ../sass/main_styles.scss */
 .page-content .swiper-container-popular-products .swiper-slide .img-container {
   max-width: 177px;
   width: 100%;
@@ -1996,46 +2578,46 @@ input:checked + #info-mobile {
   text-align: center;
   overflow: hidden;
 }
-/* line 548, ../sass/main_styles.scss */
+/* line 549, ../sass/main_styles.scss */
 .page-content .swiper-container-popular-products .swiper-slide .img-container img {
   max-width: 100%;
   height: auto;
 }
-/* line 553, ../sass/main_styles.scss */
+/* line 554, ../sass/main_styles.scss */
 .page-content .swiper-container-popular-products .swiper-slide .red-price {
   text-align: left;
   color: #ff0b36;
   font: 700 22px / 24px 'Arial', sans-serif;
 }
-/* line 557, ../sass/main_styles.scss */
+/* line 558, ../sass/main_styles.scss */
 .page-content .swiper-container-popular-products .swiper-slide .red-price a {
   color: #ff0b36;
 }
-/* line 560, ../sass/main_styles.scss */
+/* line 561, ../sass/main_styles.scss */
 .page-content .swiper-container-popular-products .swiper-slide .red-price .through-price {
   text-decoration: line-through;
 }
-/* line 563, ../sass/main_styles.scss */
+/* line 564, ../sass/main_styles.scss */
 .page-content .swiper-container-popular-products .swiper-slide .red-price .capitalize-word {
   text-transform: capitalize;
 }
-/* line 567, ../sass/main_styles.scss */
+/* line 568, ../sass/main_styles.scss */
 .page-content .swiper-container-popular-products .swiper-slide .product-price {
   margin: 0 auto 27px;
   text-align: center;
   color: #ff3c19;
   font: 400 20px / 23px 'Arial', sans-serif;
 }
-/* line 573, ../sass/main_styles.scss */
+/* line 574, ../sass/main_styles.scss */
 .page-content .swiper-container-popular-products .swiper-slide .arrow-picture {
   width: 150px;
 }
-/* line 575, ../sass/main_styles.scss */
+/* line 576, ../sass/main_styles.scss */
 .page-content .swiper-container-popular-products .swiper-slide .arrow-picture img {
   max-width: 100%;
   height: auto;
 }
-/* line 580, ../sass/main_styles.scss */
+/* line 581, ../sass/main_styles.scss */
 .page-content .swiper-container-popular-products .swiper-slide .product-more {
   display: block;
   width: 153px;
@@ -2052,13 +2634,13 @@ input:checked + #info-mobile {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 599, ../sass/main_styles.scss */
+/* line 600, ../sass/main_styles.scss */
 .page-content .swiper-container-latest-products {
   padding: 36px 0 10px 10px;
   border: 3px solid #a8df1a;
   border-radius: 6px;
 }
-/* line 604, ../sass/main_styles.scss */
+/* line 605, ../sass/main_styles.scss */
 .page-content .swiper-container-latest-products .slider-direction {
   position: absolute;
   top: 0;
@@ -2068,14 +2650,14 @@ input:checked + #info-mobile {
   width: 100%;
   height: 36px;
 }
-/* line 613, ../sass/main_styles.scss */
+/* line 614, ../sass/main_styles.scss */
 .page-content .swiper-container-latest-products .slider-direction .container-title {
   margin: 5px auto 0;
   text-align: center;
   color: white;
   font: 400 18px / 23px 'Arial', sans-serif;
 }
-/* line 621, ../sass/main_styles.scss */
+/* line 622, ../sass/main_styles.scss */
 .page-content .swiper-container-latest-products .swiper-slide {
   max-width: 375px;
   width: 100%;
@@ -2083,25 +2665,25 @@ input:checked + #info-mobile {
   box-sizing: border-box;
   overflow: hidden;
 }
-/* line 628, ../sass/main_styles.scss */
+/* line 629, ../sass/main_styles.scss */
 .page-content .swiper-container-latest-products .swiper-slide .product-title {
   margin: 18px auto 0;
   color: #4d4d4d;
   font: 400 18px / 22px 'Arial', sans-serif;
   text-align: left;
 }
-/* line 633, ../sass/main_styles.scss */
+/* line 634, ../sass/main_styles.scss */
 .page-content .swiper-container-latest-products .swiper-slide .product-title a {
   color: #4d4d4d;
 }
-/* line 637, ../sass/main_styles.scss */
+/* line 638, ../sass/main_styles.scss */
 .page-content .swiper-container-latest-products .swiper-slide .product-price {
   margin: 0 auto 27px;
   text-align: center;
   color: #ff3c19;
   font: 400 20px / 23px 'Arial', sans-serif;
 }
-/* line 643, ../sass/main_styles.scss */
+/* line 644, ../sass/main_styles.scss */
 .page-content .swiper-container-latest-products .swiper-slide .img-container {
   max-width: 177px;
   width: 100%;
@@ -2111,39 +2693,39 @@ input:checked + #info-mobile {
   text-align: center;
   overflow: hidden;
 }
-/* line 652, ../sass/main_styles.scss */
+/* line 653, ../sass/main_styles.scss */
 .page-content .swiper-container-latest-products .swiper-slide .img-container img {
   max-width: 100%;
   height: auto;
 }
-/* line 657, ../sass/main_styles.scss */
+/* line 658, ../sass/main_styles.scss */
 .page-content .swiper-container-latest-products .swiper-slide .red-price {
   text-align: left;
   color: #ff0b36;
   font: 700 22px / 24px 'Arial', sans-serif;
 }
-/* line 661, ../sass/main_styles.scss */
+/* line 662, ../sass/main_styles.scss */
 .page-content .swiper-container-latest-products .swiper-slide .red-price a {
   color: #ff0b36;
 }
-/* line 664, ../sass/main_styles.scss */
+/* line 665, ../sass/main_styles.scss */
 .page-content .swiper-container-latest-products .swiper-slide .red-price .through-price {
   text-decoration: line-through;
 }
-/* line 667, ../sass/main_styles.scss */
+/* line 668, ../sass/main_styles.scss */
 .page-content .swiper-container-latest-products .swiper-slide .red-price .capitalize-word {
   text-transform: capitalize;
 }
-/* line 671, ../sass/main_styles.scss */
+/* line 672, ../sass/main_styles.scss */
 .page-content .swiper-container-latest-products .swiper-slide .arrow-picture {
   width: 150px;
 }
-/* line 673, ../sass/main_styles.scss */
+/* line 674, ../sass/main_styles.scss */
 .page-content .swiper-container-latest-products .swiper-slide .arrow-picture img {
   max-width: 100%;
   height: auto;
 }
-/* line 678, ../sass/main_styles.scss */
+/* line 679, ../sass/main_styles.scss */
 .page-content .swiper-container-latest-products .swiper-slide .product-more {
   display: block;
   width: 153px;
@@ -2162,7 +2744,7 @@ input:checked + #info-mobile {
 }
 
 /*----------------------------------------------------*/
-/* line 699, ../sass/main_styles.scss */
+/* line 700, ../sass/main_styles.scss */
 footer {
   position: relative;
   width: 100%;
@@ -2173,7 +2755,7 @@ footer {
   padding: 26px 0 0;
   background-color: #ededed;
 }
-/* line 704, ../sass/main_styles.scss */
+/* line 705, ../sass/main_styles.scss */
 footer .footer-info-list {
   width: 100%;
   box-sizing: border-box;
@@ -2181,7 +2763,7 @@ footer .footer-info-list {
   margin: 0 auto;
   text-align: center;
 }
-/* line 711, ../sass/main_styles.scss */
+/* line 712, ../sass/main_styles.scss */
 footer .footer-info-list li {
   display: block;
   width: 100%;
@@ -2189,16 +2771,16 @@ footer .footer-info-list li {
   color: #4d4d4d;
   font: 400 16px / 23px 'Arial', sans-serif;
 }
-/* line 718, ../sass/main_styles.scss */
+/* line 719, ../sass/main_styles.scss */
 footer .footer-info-list li strong {
   font-size: 22px;
   font-weight: 700;
 }
-/* line 722, ../sass/main_styles.scss */
+/* line 723, ../sass/main_styles.scss */
 footer .footer-info-list li a {
   color: #4d4d4d;
 }
-/* line 728, ../sass/main_styles.scss */
+/* line 729, ../sass/main_styles.scss */
 footer .social-icons {
   width: 100%;
   box-sizing: border-box;
@@ -2206,24 +2788,24 @@ footer .social-icons {
   margin: 16px auto 34px;
   text-align: center;
 }
-/* line 734, ../sass/main_styles.scss */
+/* line 735, ../sass/main_styles.scss */
 footer .social-icons li {
   display: inline-block;
   margin: 10px auto;
 }
-/* line 740, ../sass/main_styles.scss */
+/* line 741, ../sass/main_styles.scss */
 footer .copyright {
   padding: 16px 0 17px;
   background: #fff;
 }
-/* line 743, ../sass/main_styles.scss */
+/* line 744, ../sass/main_styles.scss */
 footer .copyright h4 {
   margin: 0 auto;
   text-align: center;
   color: #4d4d4d;
   font: 400 12px / 14px 'Arial', sans-serif;
 }
-/* line 748, ../sass/main_styles.scss */
+/* line 749, ../sass/main_styles.scss */
 footer .copyright h4 a {
   color: #4d4d4d;
 }

@@ -169,6 +169,24 @@
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
+.swiper-button-magnititerapiya-podrobnee-next,
+.swiper-container-rtl .swiper-button-magnititerapiya-podrobnee-next {
+  /*background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");*/
+  background: url("../images/magnititerapiya-podrobnee-next.png");
+  left: auto;
+  cursor: pointer;
+  position: absolute;
+  right: 7px;
+  height: 39px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 999;
+  width: 21px;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
 .swiper-button-promotional-next,
 .swiper-container-rtl .swiper-button-promotional-next {
   /*background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");*/
@@ -185,10 +203,63 @@
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
+.swiper-button-related-products-next,
+.swiper-container-rtl .swiper-button-related-products-next {
+  /*background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");*/
+  background: url("../images/related-products-next.png");
+  left: auto;
+  cursor: pointer;
+  position: absolute;
+  right: 7px;
+  height: 24px;
+  top: 5px;
+  width: 24px;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.swiper-button-magnititerapiya-podrobnee-prev,
+.swiper-container-rtl .swiper-button-magnititerapiya-podrobnee-prev {
+  /*background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");*/
+  background-image:  url("../images/magnititerapiya-podrobnee-prev.png");
+  left: 7px;
+  position: absolute;
+  right: auto;
+  cursor: pointer;
+  top: 5px;
+  height: 39px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 999;
+  width: 21px;
+  right: auto;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
 .swiper-button-promotional-prev,
 .swiper-container-rtl .swiper-button-promotional-prev {
   /*background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");*/
   background-image:  url("../images/promotional-prev.png");
+  left: 7px;
+  position: absolute;
+  right: auto;
+  cursor: pointer;
+  top: 5px;
+  height: 24px;
+  width: 24px;
+  right: auto;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.swiper-button-related-products-prev,
+.swiper-container-rtl .swiper-button-related-products-prev {
+  /*background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");*/
+  background-image:  url("../images/related-products-prev.png");
   left: 7px;
   position: absolute;
   right: auto;
