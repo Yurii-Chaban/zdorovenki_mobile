@@ -290,20 +290,9 @@
 		.form-title {
 			font-weight: 700;
 		}
-		.vote-stars {
-			height: 32px; 
-			width: 160px; 
-			background: url('../images/stars.png') left top;
-		}
-		.vote-active {
-			height: 32px; 
-			width: 32px; 
-			background: url('../images/stars.png') left bottom;
-		}
-		.vote-hover {
-			padding: 0px 4px; 
-			height: 32px; 
-			width: 160px;
+
+		.border-wrap {
+			height: 60px;
 		}
 
 		input {

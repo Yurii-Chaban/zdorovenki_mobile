@@ -97,42 +97,15 @@ $(".filter-button span").click(function(){
 });
 
 /*star*/
-// $(function(){
-    
-//     $('#rating_1').rating({
-//         fx: 'full',
-//         image: 'images/stars.png',
-//         loader: 'images/ajax-loader.gif',
-//         url: 'rating.php',
-//         callback: function(responce){
+$(function(){
+    $('#rating_1').rating({
+        fx: 'full',
+        image: 'images/stars.png',
+        loader: 'images/ajax-loader.gif',
+        url: 'rating.php',
+        callback: function(responce){
             
-//             this.vote_success.fadeOut(2000);
-//         }
-//     });
-    
-//     $('#rating_2').rating({
-//         fx: 'half',
-//         image: 'images/stars.png',
-//         loader: 'images/ajax-loader.gif',
-//         url: 'rating.php',
-//         callback: function(responce){
-            
-//             this.vote_success.fadeOut(2000);
-            
-//             alert('Общий бал: '+this._data.val);
-//         }
-//     });
-    
-//     $('#rating_3').rating({
-//         fx: 'float',
-//         image: 'images/stars.png',
-//         loader: 'images/ajax-loader.gif',
-//         minimal: 0.6,
-//         url: 'rating.php',
-//         callback: function(responce){
-            
-//             this.vote_success.fadeOut(2000);
-//             if(responce.msg) alert(responce.msg);
-//         }
-//     });
-// })
+            this.vote_success.fadeOut(2000);
+        }
+    });
+});

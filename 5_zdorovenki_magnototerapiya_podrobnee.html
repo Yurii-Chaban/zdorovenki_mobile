@@ -20,6 +20,7 @@
 	<link rel="stylesheet" href="stylesheets/dropdown.css">
 	<link rel="stylesheet" href="stylesheets/swiper.css">
 	<link rel="stylesheet" href="stylesheets/accordion.css">
+	<link rel="stylesheet" href="stylesheets/jquery.rating.css">
 	<link rel="stylesheet" href="stylesheets/main_styles.css">
 </head>
 <body>
@@ -309,6 +310,15 @@
 					            <p class="form-title">Оставить отзыв</p>
 					            	<form method="post" action="">
 					            		<dl class="zend_form">
+					            			<dt class="rating-star">
+					            				<dd>
+					            					<div class="border-wrap">
+														<div id="rating_1">
+											        		<input type="hidden" name="vote-id" value="1"/>
+											            </div>
+													</div>
+					            				</dd>
+					            			</dt>
 								            <dt id="name-label">
 								            	<label for="name" class="required">Контактное лицо</label>
 							            	</dt>
@@ -455,5 +465,12 @@
     <script  src="js/swiper.js"></script>
     <script src="js/accordion.js"></script>
     <script src="js/main.js"></script>
+
+<!-- rating -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<script type="text/javascript">
+	window.jQuery || document.write('<script type="text/javascript" src="js/jquery-1.6.2.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="js/jquery.rating-2.0.js"></script>
 </body>
 </html>
