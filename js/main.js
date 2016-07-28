@@ -109,3 +109,11 @@ $(function(){
         }
     });
 });
+/*------------------------*/
+/*call Modal */
+function openModal() {
+    $('#BtnModal').css("display", "block");
+}
+function closeModal() {
+    $('#BtnModal').removeAttr('style');
+};

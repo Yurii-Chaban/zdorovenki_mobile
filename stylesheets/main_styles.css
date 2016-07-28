@@ -1330,7 +1330,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-position: center;
   /*----------------------------------paginator--------------------*/
 }
-/* line 103, ../sass/_magnititerapiya.scss */
+/* line 104, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .magnititerapiya-item {
   display: block;
   max-width: 420px;
@@ -1342,61 +1342,61 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   overflow: hidden;
   border: 1px solid #b1b1b1;
 }
-/* line 113, ../sass/_magnititerapiya.scss */
+/* line 114, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .magnititerapiya-item .magnititerapiya-title {
   color: #047fad;
   text-align: center;
   font: 400 18px / 22px 'Arial', sans-serif;
 }
-/* line 117, ../sass/_magnititerapiya.scss */
+/* line 118, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .magnititerapiya-item .magnititerapiya-title a {
   color: #047fad;
 }
-/* line 121, ../sass/_magnititerapiya.scss */
+/* line 122, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .magnititerapiya-item .magnititerapiya-articul {
   margin: 15px auto;
   text-align: center;
   color: #2a2a2a;
   font: 700 16px / 22px 'Arial', sans-serif;
 }
-/* line 126, ../sass/_magnititerapiya.scss */
+/* line 127, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .magnititerapiya-item .magnititerapiya-articul a {
   color: #2a2a2a;
 }
-/* line 130, ../sass/_magnititerapiya.scss */
+/* line 131, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .magnititerapiya-item .float-block {
   clear: both;
   overflow: hidden;
   margin: 15px auto 0;
   padding: 10px 0;
 }
-/* line 136, ../sass/_magnititerapiya.scss */
+/* line 137, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .magnititerapiya-item .float-block .in-stock {
   float: left;
   font: 400 18px / 20px 'Arial', sans-serif;
   color: black;
 }
-/* line 140, ../sass/_magnititerapiya.scss */
+/* line 141, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .magnititerapiya-item .float-block .in-stock .stock-yes {
   color: #94d10e;
 }
-/* line 143, ../sass/_magnititerapiya.scss */
+/* line 144, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .magnititerapiya-item .float-block .in-stock .stock-no {
   color: #7c7c7c;
 }
-/* line 147, ../sass/_magnititerapiya.scss */
+/* line 148, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .magnititerapiya-item .float-block .call-button {
   float: right;
   color: black;
   font: 400 18px / 20px 'Arial', sans-serif;
 }
-/* line 152, ../sass/_magnititerapiya.scss */
+/* line 153, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .magnititerapiya-item .float-block .price {
   float: left;
   color: #ff3c19;
   font: 400 18px / 23px 'Arial', sans-serif;
 }
-/* line 157, ../sass/_magnititerapiya.scss */
+/* line 158, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .magnititerapiya-item .float-block .more-button {
   display: block;
   float: right;
@@ -1409,7 +1409,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-image: linear-gradient(to top, #047fad 0%, #09adef 100%);
   box-shadow: 2px 3.5px 0 rgba(28, 28, 28, 0.13);
 }
-/* line 170, ../sass/_magnititerapiya.scss */
+/* line 171, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .magnititerapiya-item .img-container {
   width: 100%;
   max-width: 170px;
@@ -1417,12 +1417,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin: 24px auto 28px;
   text-align: center;
 }
-/* line 176, ../sass/_magnititerapiya.scss */
+/* line 177, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .magnititerapiya-item .img-container img {
   max-width: 100%;
   height: auto;
 }
-/* line 185, ../sass/_magnititerapiya.scss */
+/* line 186, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .paginator {
   clear: both;
   font-size: 14px;
@@ -1430,7 +1430,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin: 20px 0 49px;
   padding-top: 17px;
 }
-/* line 192, ../sass/_magnititerapiya.scss */
+/* line 193, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .paginator_line {
   height: 1px;
   background-color: #dbd7d7;
@@ -1438,7 +1438,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   top: 35px;
   z-index: 0;
 }
-/* line 199, ../sass/_magnititerapiya.scss */
+/* line 200, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .paginator ul {
   list-style: none;
   clear: both;
@@ -1446,7 +1446,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: inline-block;
   z-index: 1;
 }
-/* line 206, ../sass/_magnititerapiya.scss */
+/* line 207, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .paginator ul li {
   float: left;
   width: auto;
@@ -1454,14 +1454,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-bottom: 28px;
   text-align: center;
 }
-/* line 213, ../sass/_magnititerapiya.scss */
+/* line 214, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .paginator ul li a {
   text-decoration: none;
   color: #6d6772;
   display: block;
   text-align: center;
 }
-/* line 220, ../sass/_magnititerapiya.scss */
+/* line 221, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .paginator ul li:hover a,
 .magnititerapiya-page .paginator ul li a:focus,
 .magnititerapiya-page .paginator li.active a {
@@ -1469,7 +1469,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-decoration: none;
   padding: 0;
 }
-/* line 227, ../sass/_magnititerapiya.scss */
+/* line 228, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .paginator li.active {
   cursor: default;
   position: relative;
@@ -1479,52 +1479,52 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 36px;
   color: #7cbf00;
 }
-/* line 236, ../sass/_magnititerapiya.scss */
+/* line 237, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .paginator_link {
   overflow: hidden;
   padding: 2px 1px 0 0;
 }
-/* line 240, ../sass/_magnititerapiya.scss */
+/* line 241, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .paginator_link a {
   font-size: 11px;
   color: #6d6772;
 }
-/* line 244, ../sass/_magnititerapiya.scss */
+/* line 245, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .paginator_link .firstpag {
   float: left;
 }
-/* line 247, ../sass/_magnititerapiya.scss */
+/* line 248, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .paginator_link .lastpag {
   float: right;
 }
-/* line 250, ../sass/_magnititerapiya.scss */
+/* line 251, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .after-content {
   margin: 29px auto 32px;
   text-align: left;
 }
-/* line 253, ../sass/_magnititerapiya.scss */
+/* line 254, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .after-content .after-descroption {
   font: 700 22px / 23px 'Arial', sans-serif;
   color: black;
 }
-/* line 257, ../sass/_magnititerapiya.scss */
+/* line 258, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .after-content p {
   margin: 30px auto;
   color: #2b2b2b;
   font: 400 18px / 22px 'Arial', sans-serif;
 }
-/* line 262, ../sass/_magnititerapiya.scss */
+/* line 263, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .after-content .list-title {
   color: #2b2b2b;
   font: 700 18px / 22px 'Arial', sans-serif;
 }
-/* line 266, ../sass/_magnititerapiya.scss */
+/* line 267, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .after-content .help-list {
   width: 100%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 270, ../sass/_magnititerapiya.scss */
+/* line 271, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .after-content .help-list li {
   position: relative;
   margin: 15px auto;
@@ -1533,7 +1533,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #2b2b2b;
   font: 400 18px / 22px 'Arial', sans-serif;
 }
-/* line 278, ../sass/_magnititerapiya.scss */
+/* line 279, ../sass/_magnititerapiya.scss */
 .magnititerapiya-page .after-content .help-list li:before {
   position: absolute;
   content: "";
@@ -4185,7 +4185,7 @@ header .wrapper {
   left: 5px;
   cursor: pointer;
   transition: left .23s;
-  z-index: 9999;
+  z-index: 9;
   width: 22px;
   -webkit-transform: classZ(0);
   -webkit-backface-visibility: hidden;
@@ -4834,4 +4834,254 @@ footer .copyright h4 a {
   color: #4d4d4d;
 }
 
+/*----------------------------------------------------*/
+/* The Modal (background) */
+/* line 766, ../sass/main_styles.scss */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 99;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+/* line 781, ../sass/main_styles.scss */
+.modal-content {
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+  height: 200%;
+  z-index: 999;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+/* The Close Button */
+/* line 791, ../sass/main_styles.scss */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* line 798, ../sass/main_styles.scss */
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* line 804, ../sass/main_styles.scss */
+#BtnModal {
+  cursor: pointer;
+}
+
+/*----end mobile-*/
+/* line 810, ../sass/main_styles.scss */
+.quote-form {
+  position: relative;
+  z-index: 99999;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 960px;
+  width: 100%;
+  margin: 35px auto 20px 0;
+  overflow: hidden;
+}
+
+/* line 821, ../sass/main_styles.scss */
+.quote-form .quote-title {
+  width: 100%;
+  color: #00a4bd;
+  letter-spacing: -2px;
+  font: 600 30px / 30px 'Arial', sans-serif;
+  text-transform: capitalize;
+}
+
+/* line 829, ../sass/main_styles.scss */
+.quote-popup .quote-form #quoteForm {
+  max-width: 714px;
+  margin: 10px 0;
+}
+
+/* line 834, ../sass/main_styles.scss */
+.quote-form #quoteForm input {
+  display: inline-block;
+  background-color: none;
+}
+
+/* line 839, ../sass/main_styles.scss */
+.quote-form #quoteForm ::-webkit-input-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #262b86;
+}
+
+/* line 846, ../sass/main_styles.scss */
+.quote-form #quoteForm :-moz-placeholder {
+  /* Firefox 18- */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #262b86;
+}
+
+/* line 854, ../sass/main_styles.scss */
+.quote-form #quoteForm ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #262b86;
+}
+
+/* line 862, ../sass/main_styles.scss */
+.quote-form #quoteForm :-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #262b86;
+}
+
+/* line 869, ../sass/main_styles.scss */
+.quote-form #quoteForm .form-row {
+  margin: 20px 0;
+}
+
+/* line 872, ../sass/main_styles.scss */
+.quote-form #quoteForm .form-row label {
+  float: left;
+  margin: 0 0 5px 12px;
+}
+
+/* line 876, ../sass/main_styles.scss */
+.quote-form #quoteForm .form-row label img {
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 880, ../sass/main_styles.scss */
+.quote-form #quoteForm .form-row label span {
+  color: #434343;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+/* line 886, ../sass/main_styles.scss */
+.quote-form #quoteForm .form-row {
+  width: 100%;
+  margin: 20px 0;
+}
+
+/* line 890, ../sass/main_styles.scss */
+.quote-form #quoteForm .form-row-message {
+  width: 100% !important;
+}
+
+/* line 893, ../sass/main_styles.scss */
+.quote-form #quoteForm .right {
+  float: right;
+}
+
+/* line 896, ../sass/main_styles.scss */
+.quote-form #quoteForm .name-field,
+.quote-form #quoteForm .phone-field,
+.quote-form #quoteForm .city-field,
+.quote-form #quoteForm #captcha-field {
+  width: 100%;
+  height: 37px;
+  padding: 5px;
+  color: #262b86;
+  border: none;
+  border: 1px solid #07acc5;
+  background-color: #ededed;
+  outline: none;
+  border-radius: 6px 7px 7px 6px;
+}
+
+/* line 911, ../sass/main_styles.scss */
+.captcha-img {
+  display: block;
+  margin: 10px auto;
+}
+
+/* line 915, ../sass/main_styles.scss */
+#captcha-field {
+  display: block;
+  height: 45px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  margin: 10px 0;
+  padding: 0 0 0 10px;
+  font: 400 18px / 39px 'Arial', sans-serif;
+  background-color: #ededed;
+  border-radius: 6px 7px 7px 6px;
+}
+
+/* line 927, ../sass/main_styles.scss */
+.quote-form #quoteForm .message {
+  width: 100%;
+  height: 172px;
+  padding: 13px 0 0 13px;
+  color: #262b86;
+  border: 1px solid #07acc5;
+  resize: none;
+  background-color: #ededed;
+  outline: none;
+  border-radius: 6px 7px 7px 6px;
+}
+
+/* line 938, ../sass/main_styles.scss */
+.quote-form #quoteForm .submit-button {
+  float: right;
+  width: 150px;
+  height: 42px;
+  margin: 19px 5px 0 0;
+  color: white;
+  font: 700 18px / 42px 'Arial', sans-serif;
+  text-transform: uppercase;
+  border: none;
+  background-color: #dd3025;
+  cursor: pointer;
+}
+
+/* The Modal (background) */
+/* The Close Button */
+/* line 953, ../sass/main_styles.scss */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* line 960, ../sass/main_styles.scss */
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*--------------------------------*/
 /*----------------------------------------------------*/

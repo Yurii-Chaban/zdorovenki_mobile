@@ -98,6 +98,47 @@
 	        </h1>
         </div>
 	</header>
+	<!-- The Modal -->
+	<div id="BtnModal" class="modal">
+		<!-- Modal content -->
+		<div class="modal-content">
+			<span id="close" onclick="closeModal()" class="close">×</span>
+			<div class="quote-form">
+				<h2 class="quote-title">Позвонить мне</h2>
+				<form method="POST" action="#" id="quoteForm">
+					<div class="form-row">
+						<label>
+							<span>Имя*</span>
+						</label>
+						<input class="name-field" type="text" name="name">
+					</div>
+					<div class="form-row right">
+						<label>
+							<span>Телефон*</span>
+						</label>
+						<input class="phone-field" type="text" name="phone">
+					</div>
+					<div class="form-row">
+						<label>
+							<span>Город*</span>
+						</label>
+						<input class="city-field" type="text" name="city">
+					</div>
+					<div class="form-row form-row-message">
+						<label>
+							<span>Комментарии к звонку*</span>
+						</label>
+						<textarea class="message" name="text"></textarea>
+					</div>
+					<div class="form-row">
+						<img class="captcha-img" src="images/captcha-img.png" alt="captcha-img">
+						<input id="captcha-field" texttype="email" name="captcha">
+					</div>
+					<input class="submit-button" type="submit" value="Отправить">
+				</form>
+			</div>
+		</div>
+	</div>
 	<section class="direction">
 		<div class="wrapper">
 			<a class="filter-button" onclick="toggle_visibility('foo')" href="#">
@@ -167,7 +208,7 @@
 				</div>
 				<div class="float-block">
 					<h3 class="in-stock">в наличии: <span class="stock-yes">да</span></h3>
-					<a class="call-button" href="#">Перезвонить мне</a>
+					<a id="BtnModal" onclick="openModal()" class="call-button" href="#">Перезвонить мне</a>
 				</div>
 				<div class="float-block">
 					<span class="price">295 грн.</span>
@@ -188,7 +229,7 @@
 				</div>
 				<div class="float-block">
 					<h3 class="in-stock">в наличии: <span class="stock-no">нет</span></h3>
-					<a class="call-button" href="#">Перезвонить мне</a>
+					<a id="BtnModal" onclick="openModal()" class="call-button" href="#">Перезвонить мне</a>
 				</div>
 				<div class="float-block">
 					<span class="price">390 грн.</span>
@@ -209,7 +250,7 @@
 				</div>
 				<div class="float-block">
 					<h3 class="in-stock">в наличии: <span class="stock-no">нет</span></h3>
-					<a class="call-button" href="#">Перезвонить мне</a>
+					<a id="BtnModal" onclick="openModal()" class="call-button" href="#">Перезвонить мне</a>
 				</div>
 				<div class="float-block">
 					<span class="price">1580 грн.</span>
@@ -230,7 +271,7 @@
 				</div>
 				<div class="float-block">
 					<h3 class="in-stock">в наличии: <span class="stock-no">нет</span></h3>
-					<a class="call-button" href="#">Перезвонить мне</a>
+					<a id="BtnModal" onclick="openModal()" class="call-button" href="#">Перезвонить мне</a>
 				</div>
 				<div class="float-block">
 					<span class="price">2500 грн.</span>
@@ -251,7 +292,7 @@
 				</div>
 				<div class="float-block">
 					<h3 class="in-stock">в наличии: <span class="stock-yes">да</span></h3>
-					<a class="call-button" href="#">Перезвонить мне</a>
+					<a id="BtnModal" onclick="openModal()" class="call-button" href="#">Перезвонить мне</a>
 				</div>
 				<div class="float-block">
 					<span class="price">1950 грн.</span>
@@ -272,7 +313,7 @@
 				</div>
 				<div class="float-block">
 					<h3 class="in-stock">в наличии: <span class="stock-yes">да</span></h3>
-					<a class="call-button" href="#">Перезвонить мне</a>
+					<a id="BtnModal" onclick="openModal()" class="call-button" href="#">Перезвонить мне</a>
 				</div>
 				<div class="float-block">
 					<span class="price">7900 грн.</span>
@@ -383,6 +424,7 @@
 			</div>
 		</div>
 	</footer>
+
 	<script src="js/jquery.min.js"></script>
     <script  src="js/search.js"></script>
     <script src="js/semantic.js"></script>
