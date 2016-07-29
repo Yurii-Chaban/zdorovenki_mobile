@@ -117,3 +117,18 @@ function openModal() {
 function closeModal() {
     $('#BtnModal').removeAttr('style');
 };
+
+/*remove checked from checkbox*/
+$(document).ready(function(){
+$(".reset").click(function(){  
+    
+        var inputCheckbox = $(".ch").find( $("input[type=checkbox]") );
+
+        if($(inputCheckbox).attr("checked") == "checked"){
+            $(inputCheckbox).removeAttr("checked");
+        }
+        else {
+            $(inputCheckbox).attr("checked","checked");
+        };
+    });
+});
